@@ -1,0 +1,105 @@
+html * {
+    
+    margin: 0px;
+    max-width: 100%;}
+
+    body {
+        background-color: white;
+    
+    }
+
+    #logotipo {
+        
+            width:1200px;
+            height:100;
+           
+        }
+
+        #menu{
+            background-color: black;
+            margin-bottom: 20px;
+            border-top:  20px solid orange;
+            border-bottom: 20px solid orange;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            text-align: center;}
+
+            #menu a {
+                color: white;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-family: 'Pacifico', cursive;
+
+            }
+
+            .principal {
+               
+                display: grid;
+                grid-template-areas: repeat(3,1fr);
+                gap: 20px;
+            }
+            
+            .item {
+        
+                background-color: grey;
+                font-family: sans-serif;
+                text-transform: uppercase;
+                margin: 20px;
+                color: white;
+                border-top: 5px solid orange;
+                border-bottom: 5px solid orange;
+                border-radius: 10%;
+                text-align: center;
+            }
+
+            .decor {
+                    background-color: black;
+                    font-family: sans-serif;
+                    text-transform: uppercase;
+                    margin: 5px;
+                    color: white;
+                    border-top: 5px solid orange;
+                    border-bottom: 5px solid orange;
+                    border-radius: 1%;
+                    text-align: center;
+                    height: 500px;
+                    width: 400px;
+                }
+          
+        
+    
+                .sub{
+                    
+                    display: grid;
+                    grid-template-columns: repeat(3,1fr);
+                    gap: 10px}
+
+            
+
+                    main {
+                        background-color: black;
+                        border-bottom: 100px solid black; 
+                        margin-bottom: 0px;
+                    }
+                    div {
+                        background-color: black;
+                        margin-bottom: 100px;
+                    }
+
+                    .rodape {
+                        background-color: orange;
+                        height: 30px;
+
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                        border-top: 10px solid black;
+                        border-bottom: 10px solid black;
+                    
+                        display: grid;
+                        align-content: center;
+                        justify-content: center;
+                    }
+
+        
+                    
